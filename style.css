@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: system-ui, sans-serif;
+  overflow: hidden;
+  touch-action: none;
+}
+
+canvas {
+  display: block;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+#message {
+  font-size: 1.2rem;
+  color: #333;
+  opacity: 0.8;
+}
